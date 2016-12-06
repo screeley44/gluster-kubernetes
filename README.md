@@ -95,7 +95,7 @@ http://10.42.0.0:8080
 ```
 
 kubernetes and heketi should now be installed and ready to go. 
-To verify Kubernetes installation fun the following commands:
+To verify Kubernetes installation run the following commands:
 
 ```bash
 $ kubectl get nodes
@@ -125,7 +125,7 @@ Hello from Heketi
 
 ### Try It Out
 
-* Continue to an example of the [Hello World application using GlusterFS Dynamic Provisioning](./docs/hellow_world/README.md)
+* Continue to an example of the [Hello World application using GlusterFS Dynamic Provisioning](./docs/examples/hello_world/README.md)
 
 Alternatively, you should now also be able to use `heketi-cli` to create/manage volumes and then mount
 those volumes to verify they're working.
@@ -139,4 +139,4 @@ those volumes to verify they're working.
 
 * [Setup Guide](./docs/setup-guide.md)
 
-* [Hello World with GlusterFS Dynamic Provisioning](./docs/hellow_world/README.md)
+* [Hello World with GlusterFS Dynamic Provisioning](./docs/examples/hello_world/README.md)
